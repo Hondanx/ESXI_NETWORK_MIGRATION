@@ -35,8 +35,7 @@ cd ESXI_NETWORK_MIGRATION
 Open the Migrate-ESXi-Network.ps1 script and update:
 
 powershell
-Copy
-Edit
+
 $oldHostIP = "OLD_ESXi_IP"
 $newHostIP = "192.168.203.9"
 Replace OLD_ESXi_IP with the source ESXi IP or hostname.
